@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TUGAS Pemograman Berorientasi Objek", "TUGAS Pemograman Berorientasi Objek\TUGAS Pemograman Berorientasi Objek.csproj", "{FEB74FFB-B71F-42F5-8DE1-C14D1893368A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEB74FFB-B71F-42F5-8DE1-C14D1893368A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB74FFB-B71F-42F5-8DE1-C14D1893368A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB74FFB-B71F-42F5-8DE1-C14D1893368A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB74FFB-B71F-42F5-8DE1-C14D1893368A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1351DE00-817F-4DE0-A09F-5518F3CE7D5A}
+	EndGlobalSection
+EndGlobal
