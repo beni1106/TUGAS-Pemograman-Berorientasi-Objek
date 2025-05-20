@@ -1,25 +1,43 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36109.1 d17.14
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TUGAS Pemograman Berorientasi Objek", "TUGAS Pemograman Berorientasi Objek\TUGAS Pemograman Berorientasi Objek.csproj", "{FEB74FFB-B71F-42F5-8DE1-C14D1893368A}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FEB74FFB-B71F-42F5-8DE1-C14D1893368A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FEB74FFB-B71F-42F5-8DE1-C14D1893368A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FEB74FFB-B71F-42F5-8DE1-C14D1893368A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FEB74FFB-B71F-42F5-8DE1-C14D1893368A}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {1351DE00-817F-4DE0-A09F-5518F3CE7D5A}
-	EndGlobalSection
-EndGlobal
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _302pt2
+{
+    internal class mobil
+    {
+        public string merek;
+        public string warna;
+
+        public void maju()
+        {
+            Console.WriteLine("mobil dengan bermerek " + this.merek + " Warna nya " + this.warna + " Berjalan Maju");
+        }
+
+        static void Main(string[] args)
+        {
+            string a, b;
+
+            Console.WriteLine("====================");
+            Console.WriteLine("Program Input mobil");
+            Console.WriteLine("====================\n");
+
+            Console.Write("Masukkan Merek Mobil Anda   : ");
+            a = Console.ReadLine();
+
+            Console.Write("Masukkan Warna Mobil Anda   : ");
+            b = Console.ReadLine();
+
+            mobil mobil1 = new mobil();
+            mobil1.merek = a;
+            mobil1.warna = b;
+
+            mobil1.maju();
+
+            Console.ReadKey();
+        }
+    }
+}
+
